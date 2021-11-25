@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
+  --primary-color: rgba(3, 45, 231, 0.452);
   --primary-color-darker: rgb(9, 48, 56);
 }
 
@@ -24,21 +24,28 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-}
 
+}
+.h1-calc{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 250px;
+  margin: 10px auto;
+  
+}
 .calculadora{
-  width: 400px;
+  width: 500px;
 }
 
 .display{
   font-size: 2em;
   width: 100%;
   text-align: right;
+  padding: 5px 5px 5px 0;
 }
 .btn{
   width: 100%;
   height: 50px;
-  font-size: 1em;
+  font-size: 1.3em;
   border: none;
   background-color: #dfdfdf;
   cursor: pointer;
@@ -46,4 +53,9 @@ body {
 .btn:hover{
   background-color: #c5c5c5;
 }
-
+.btn-clear, .btn-plus{
+  background-color: rgb(124, 176, 255);
+}
+.btn-clear:hover, .btn-plus:hover{
+  background-color: rgb(69, 130, 223);
+}
